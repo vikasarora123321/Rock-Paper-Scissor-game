@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Rock-paper-Scissors</h1>
+    </nav>
+    <div class="image-container">
+        <img src="rock2.jpg" alt="rock" class="images">
+        <img src="paper2.jpg" alt="paper" class="images">
+        <img src="scissors2.jpg" alt="scissor" class="images">
+    </div>
+    <div class="score">
+        <div  >
+            <input type="text" class="user_score" value="0" disabled = true>
+            <h5>You</h5>
+        </div>
+        <div >
+            <input type="text" class="com_score" value="0" disabled = true >
+            <h5>Com</h5>
+        </div>
+    </div>
+    <div class="msg-container">
+        <div id="win-msg-container" hidden = true>Congratulations, You Win !!!</div>
+        <div id="draw-msg-container" hidden = true>Match is Draw</div>
+        <div id="lose-msg-container" hidden = true>You Lose, Try Again !!!</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
